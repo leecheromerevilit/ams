@@ -48,11 +48,6 @@
                                     <i class="ti-calendar"></i> <span> Attendance Logs </span>
                                 </a>
                             </li>
-                            <li class="">
-                                <a href="/latetime" class="waves-effect {{ request()->is("latetime") || request()->is("latetime/*") ? "mm active" : "" }}">
-                                    <i class="dripicons-warning"></i><span> Late Time </span>
-                                </a>
-                            </li>
 
                         </ul>
 
