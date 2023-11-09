@@ -10,7 +10,7 @@
                             <li class="menu-title">Main</li>
                             <li class="">
                                 <a href="{{route('admin')}}" class="waves-effect {{ request()->is("admin") || request()->is("admin/*") ? "mm active" : "" }}">
-                                    <i class="ti-home"></i><span class="badge badge-primary badge-pill float-right">2</span> <span> Dashboard </span>
+                                    <i class="ti-home"></i> <span> Dashboard </span>
                                 </a>
                             </li>
                             
